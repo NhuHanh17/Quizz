@@ -27,3 +27,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-background-color: green;
     -fx-pref-width: 200;
 }
+
+.Input {
+    -fx-padding: 8;
+    -fx-pref-width: 280;
+}

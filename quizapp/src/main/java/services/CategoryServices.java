@@ -24,7 +24,7 @@ public class CategoryServices {
         Connection conn = MyConnector.getInstance().connect();
 
         Statement stm = conn.createStatement();
-        ResultSet rs = stm.executeQuery("SELECT * FROM catelory; ");
+        ResultSet rs = stm.executeQuery("SELECT * FROM category; ");
         List<Category> cates = new ArrayList<>();
         while (rs.next()) {
             int id = rs.getInt("id");
