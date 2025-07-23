@@ -1,8 +1,10 @@
 com\han\quizapp\QuestionController.class
+services\CategoryServices.class
 com\han\quizapp\SecondaryController.class
 utils\MyAlert.class
 utils\MyConnector.class
 com\han\quizapp\App.class
 utils\MyStage.class
 module-info.class
+pojo\Category.class
 com\han\quizapp\PrimaryController.class

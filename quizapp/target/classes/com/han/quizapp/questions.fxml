@@ -15,7 +15,7 @@
       <TextArea prefHeight="77.0" prefWidth="355.0" promptText="Nhập câu hỏi" />
       <HBox prefHeight="100.0" prefWidth="200.0" styleClass="Main">
          <children>
-            <ComboBox prefWidth="150.0" promptText="Danh mục câu hỏi" />
+            <ComboBox fx:id="cbCate" prefWidth="150.0" promptText="Danh mục câu hỏi" />
             <ComboBox prefWidth="150.0" promptText="Độ khó" />
          </children>
       </HBox>
